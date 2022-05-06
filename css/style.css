@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
+
 .wrapper {
     margin: 133px 0 67px;
 }
 
 
 
-.page {}
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
-.page__position {}
+
 
 .container {
     max-width: 840px;
@@ -18,24 +21,30 @@
     box-sizing: content-box;
 }
 
-.page__heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
 
+
+.page {}
+
+.page__position {}
+
+.page__heading {
+    font-size: 30px;
+    line-height: 117%;
+    text-align: center;
     color: #2C2C2C;
 
     margin-bottom: 58px;
 }
 
-.page__list {
+.page__wrap-image {
+    /* что бы прицепить к этому элементу*/
+
     position: relative;
     max-width: 549px;
     margin: 0 auto;
 }
 
-.page__item:nth-child(1) {
+.page__square-image {
     position: absolute;
     top: -37px;
     left: -50px;
@@ -49,12 +58,130 @@
 
 }
 
-.page__item:nth-child(2) {
-    text-align: center;
-}
-
 .page__image {
     max-width: 100%;
 
-    margin-bottom: 35px;
+    margin-bottom: 65px;
+}
+
+
+
+.page__wrap-picture {
+    position: relative;
+    max-width: 549px;
+    margin: 0 auto;
+}
+
+.page__square-picture {
+    position: absolute;
+    right: -35px;
+    top: -30px;
+
+    z-index: -1;
+
+    width: 100px;
+    height: 100px;
+    background: #0085FF;
+    border-radius: 15px;
+}
+
+.page__picture {
+    border-radius: 15px;
+    max-width: 100%;
+
+    margin-bottom: 45px;
+}
+
+
+
+
+.page__subheading {
+    font-size: 30px;
+    line-height: 117%;
+    text-align: center;
+    color: #2C2C2C;
+
+    margin-bottom: 13px;
+}
+
+
+
+.page__wrap-pic {
+    max-width: 450px;
+    height: 287.5px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.page__square-pic {
+    position: absolute;
+    left: -49px;
+    bottom: -38.3px;
+    z-index: -1;
+
+    width: 100px;
+    height: 100px;
+
+    background: #8EEBC4;
+    box-shadow: 2px 6px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.page__pic {
+    max-width: 100%;
+}
+
+
+
+.page__text {
+    font-size: 18px;
+    line-height: 117%;
+    color: #000000;
+}
+
+
+
+.page__left-green-blue-square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+    background: #8EEBC4;
+
+    margin-bottom: 53px;
+}
+
+.page__under-left {
+    position: absolute;
+    top: -7px;
+    right: -51px;
+    z-index: -1;
+
+    width: 100px;
+    height: 100px;
+
+    background: #0085FF;
+}
+
+
+.right-green-blue-square {
+    margin-left: 740px;
+    position: relative;
+    left: auto;
+
+    width: 100px;
+    height: 100px;
+    background: #8EEBC4;
+}
+
+.under-right {
+    position: absolute;
+    left: -50px;
+    top: -12px;
+    z-index: -1;
+
+    width: 100px;
+    height: 100px;
+
+    background: #0085FF;
 }
