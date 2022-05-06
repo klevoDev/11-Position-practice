@@ -3,7 +3,7 @@
 
 
 .wrapper {
-    margin: 133px 0 67px;
+    padding: 133px 0 67px;
 }
 
 
@@ -50,7 +50,6 @@ body {
     position: absolute;
     top: -37px;
     left: -50px;
-
     z-index: -1;
 
     width: 100px;
@@ -78,7 +77,6 @@ body {
     position: absolute;
     right: -35px;
     top: -30px;
-
     z-index: -1;
 
     width: 100px;
@@ -89,6 +87,7 @@ body {
 
 .page__picture {
     border-radius: 15px;
+
     max-width: 100%;
 }
 
@@ -164,7 +163,7 @@ body {
 }
 
 .right-green-blue-square {
-    margin-left: 740px;
+    margin-left: auto;
     position: relative;
 
     width: 100px;
@@ -210,11 +209,10 @@ body {
 }
 
 .right-blue-green-square {
-    margin-left: 711px;
+    margin-left: auto;
     position: relative;
     width: 100px;
     height: 100px;
-
 
     background: #8EEBC4;
 }
