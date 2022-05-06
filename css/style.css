@@ -42,6 +42,8 @@ body {
     position: relative;
     max-width: 549px;
     margin: 0 auto;
+
+    margin-bottom: 65px;
 }
 
 .page__square-image {
@@ -60,8 +62,6 @@ body {
 
 .page__image {
     max-width: 100%;
-
-    margin-bottom: 65px;
 }
 
 
@@ -70,6 +70,8 @@ body {
     position: relative;
     max-width: 549px;
     margin: 0 auto;
+
+    margin-bottom: 45px;
 }
 
 .page__square-picture {
@@ -88,8 +90,6 @@ body {
 .page__picture {
     border-radius: 15px;
     max-width: 100%;
-
-    margin-bottom: 45px;
 }
 
 
@@ -112,6 +112,8 @@ body {
     margin: 0 auto;
 
     position: relative;
+
+    margin-bottom: 115px;
 }
 
 .page__square-pic {
@@ -131,15 +133,13 @@ body {
     max-width: 100%;
 }
 
-
-
 .page__text {
     font-size: 18px;
     line-height: 117%;
     color: #000000;
+
+    margin-bottom: 63px;
 }
-
-
 
 .page__left-green-blue-square {
     position: relative;
@@ -163,25 +163,69 @@ body {
     background: #0085FF;
 }
 
-
 .right-green-blue-square {
     margin-left: 740px;
     position: relative;
-    left: auto;
 
     width: 100px;
     height: 100px;
     background: #8EEBC4;
+
+    margin-bottom: 40px;
 }
 
-.under-right {
+.page__under-right {
     position: absolute;
     left: -50px;
-    top: -12px;
+    bottom: -12px;
     z-index: -1;
 
     width: 100px;
     height: 100px;
+
+    background: #0085FF;
+}
+
+.page__left-blue-green-square {
+    margin-left: 42px;
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+    background: #0085FF;
+
+    margin-bottom: 43px;
+}
+
+.page__left-up {
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    z-index: 1;
+
+    width: 100px;
+    height: 100px;
+
+    background: #8EEBC4;
+}
+
+.right-blue-green-square {
+    margin-left: 711px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+
+    background: #8EEBC4;
+}
+
+.page__right-up {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 37px;
+    top: 24px;
+    z-index: 1;
 
     background: #0085FF;
 }
