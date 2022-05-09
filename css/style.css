@@ -57,6 +57,7 @@
 
 
 
+
 .page {}
 
 .page__position {
@@ -206,10 +207,14 @@
 .practice__square {
     position: relative;
     margin-right: 29px;
-
-    border: 2px solid #000;
 }
 
-.square__green {}
+.square__green {
+    margin-left: auto;
+}
 
-.square__blue {}
+.square__blue {
+    position: absolute;
+    top: 24px;
+    right: 37px;
+}
